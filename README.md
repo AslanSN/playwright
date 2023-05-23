@@ -76,13 +76,27 @@ $ npm init -y
 
 Si conectaramos nuestro directorio con un repositorio de GitHub puedes lanzar `GitHub Actions` si lo instalamos con playwright.
 
-[Muestra de GitHub Actions](https://github.com/debs-obrien/miduconftests/actions)
+[Muestra de GitHub Actions](https://github.com/AslanSN/playwright/actions)
 
 1. Pulsamos en `first commit`
 2. Ahí normalmente nos saldría todo el `log` que muestra qué ha fallado.
 3. Hay que tener en cuenta con los `retries`
-4. Irán unidos a un report como `playwright-report` 
+4. Irán unidos a un report como `playwright-report`
 5. ```pwsh
    $ npx playwright show-report [nombre del report]
    ```
 
+## Summary
+
+- VS Code Extension
+- Codegen: Autogenera tests
+- Run Debug mode
+- Locators y Frame locators
+- Muestra Reports
+- Muestra archivos de seguimiento (Tracefiles)
+- Espera automaticamente por defecto a todas las acciones, no hace falta añadir timeouts
+- Tests en paralelo, super rápido, en multiples navegadores y dispositivos
+- Intercepta peticiones, sigue todas las redirecciones, bypass del CORS, manejo de cookies con chips de chocolate.
+- Testea tu componente de forma aislada
+- En Vue, React o Svelte
+- 
